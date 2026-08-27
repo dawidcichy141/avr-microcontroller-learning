@@ -45,8 +45,8 @@ int main(void){
 		}
 
 		TCCR1B = 0;
-
-		int distance = TCNT1/58;
+		// v = 343 m/s = 34300cm/1000000us = 0,0343 cm/us  t = 1cm/0,0343cm/us = 29,15us
+		int distance = TCNT1/58; //58 =  29,15us*2
 
 
 		PORTC ^= (1 << PC0);
