@@ -10,6 +10,7 @@
 #include "uart.h"
 
 uint16_t paddle_x = 0;
+uint16_t paddle_y = 5;
 
 void paddle_init(void){
 	paddle_x = 40;

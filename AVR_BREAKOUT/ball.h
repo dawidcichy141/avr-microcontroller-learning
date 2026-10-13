@@ -21,6 +21,7 @@ extern int16_t ball_vy;
 
 void ball_init(void);
 void ball_update(void);
+//void ball_bounce_block(void);
 
 
 #endif /* BALL_H_ */

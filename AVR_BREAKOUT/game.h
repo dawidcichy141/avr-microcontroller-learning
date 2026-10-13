@@ -19,7 +19,8 @@ typedef enum{
 
 extern GameState current_state;
 
-void update_game(void);
+void update_game(char cmd);
+void reset_game(void);
 
 
 #endif /* GAME_H_ */
